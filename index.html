@@ -15,16 +15,70 @@
 <!-- Navigation --->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
-  <a class="navbar-brand" href="#"><img src="images/logo.png">
+  <a class="navbar-brand" href="#"><img src="images/logo.png" style="width:150px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse"
   data-target="#navbarResponsive">
-  
+  <span class="navbar-toggler-icon"></span>
   </button>
+  <!--menu-->
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+<!--elements in the menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Connect</a>
+        </li>
 </div>
 </nav>
 
 <!--image slider --->
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+<!--Images that slide 1,2 and 3-->
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+<!--the images inside the carousel-->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="C:\Users\yanei\OneDrive\Documentos\Web Design and development\Project02\images\pexels-august-de-richelieu-4427553.jpg" alt="pexel law team" style="width:100%">
+<!--content in the caroulse-->
+    <div class="carousel-caption">
+      <h1 class="display-2">Court Interpreter</h1>
+      <h3>Take a look at our services</h3>
+      <button type="button" class="btn btn-outline-light btn-lg">Quick View</button>
+      <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="C:\Users\yanei\OneDrive\Documentos\Web Design and development\Project02\images\pexels-kampus-production-8636601.jpg" alt="pexel medical team">
+  </div>
+  <div class="carousel-item">
+    <img src="C:\Users\yanei\OneDrive\Documentos\Web Design and development\Project02\images\pexels-mart-production-7088520.jpg" alt="pexel interpreter">
+  </div>
+</div><!--carouselinner div-->
+</div><!--the carousel slide div-->
 <!-- jumbotron--->
+<div class="container-fluid">
+<div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <p class="lead">An interpreter plays the role of connecting communication between individuals
+        who don't speak the same language, we can provide you the best service and eliminate borders in communication</p>
+    </div>
+</div>
+</div>
 <!--welcome section --->
 <!--three column section --->
 <!--Two column section-->
