@@ -49,6 +49,11 @@ figure{
           transform: translateZ(0);
   will-change: transform;
 }
+.container-fluid{
+  display: block;
+  width:300px;
+  height:300px;
+}
 /*----Bootstrap padding fix------*/
 [class*="col"]{
   padding: 1rem;
