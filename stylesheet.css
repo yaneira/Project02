@@ -1,83 +1,47 @@
-@import url('https://font.googleapis.com/css?family=Poppins:400,500,700')
-
-
-
-/*----Media Queries------*/
-@media (max-width: 992px){
-
+.section{
+  background-color:#AED6F1;
 }
-@media(max-width: 768px){
-
+.section h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: serif;
 }
-@media(max-width:576px){
-
+.section p{
+  font-size: 1.5rem;
 }
-/*-----Firefox bug fix--------*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+.Jumbo{
+  background-color:#5499C7 ;
 }
-/*------fixed backgroud image-----------*/
-figure{
-  position: relative;
-  width:100%;
-  height: 60%;
-  margin:0!important;
+.col-three{
+  background-color:#F2F3F4;
+  text-align: center;
 }
-.fixed=wrap{
-  clip: rect(0,auto, auto,0);
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+.col-three col-3{
+  width: 100%;
+  text-align: center;
 }
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
+.col-three h3{
+font-size: 2rem;
+}
+.col-Two{
+  background-color:#AED6F1;
+}
+.meeatTeam-container{
+  background-color:#F2F3F4;
+}
+.card-container{
+  background-color:#F2F3F4;
+}
+.card-container h4{
+  font-size: 2rem;
+}
+.col-md-4{
   display: block;
-  top:0;
-  left: 0;
-  width:100%;
-  heigth:100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
+  width: 500px;
+  height: 700px;
 }
-.container-fluid{
+.Footer{
   display: block;
-  width:300px;
-  height:300px;
+  padding-top: 250px;
 }
-/*----Bootstrap padding fix------*/
-[class*="col"]{
-  padding: 1rem;
-}
-/*extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in bootstrap
-
-Small (sm) devices (landscape phaones, 576px and up)
-@media (,min-width: 576px){
-...
-}
-
-Medium (md) devices (desktops, 992px and up)
-@media (min-width: 768px){
-...
-}
-
-Large (lg) devices (desktops,992px and up)
-@media (min-width: 1200px){
-...
-}
-
-Extra(xl) large devices (large desktops,1200px and up)
-@media (min-width: 1200px){
-...
-}
-*/
